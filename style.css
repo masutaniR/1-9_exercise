@@ -20,11 +20,13 @@ main {
 .contents {
   width: 300px;
   padding: 10px;
+  margin-right: 30px;
+  position: relative;
   background-color: #eee;
 }
 
-.contents:nth-child(2) {
-  margin: 0 30px;
+.contents:last-child {
+  margin-right: 0;
 }
 
 .image {
@@ -49,6 +51,8 @@ main {
   background-color: #ff9a4b;
   color: #fff;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .title {
